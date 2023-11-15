@@ -7,8 +7,6 @@
   font-size: 16px;
   line-height: 20px;
   background-color: #ffffff;
-  border-style: dotted;
-  border-color: red;
 }
 
 .header {
@@ -20,8 +18,6 @@
   background-image: url(../images/background_header.svg);
   background-position-x: right;
   background-repeat: no-repeat;
-  border-style: dotted;
-  border-color: orange;
 }
 
 .nav {
@@ -152,8 +148,6 @@
   background-color: #0a2750;
   background-position: center;
   background-image: url(../images/background_recipes.svg);
-  border-style: dotted;
-  border-color: yellowgreen;
 }
 
 .recipes {
