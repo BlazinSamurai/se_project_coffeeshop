@@ -99,14 +99,14 @@
 }
 
 .header__image {
-  position: relative;
-  top: 124px;
-  right: 5px;
+  max-width: 646px;
+  max-height: 568px;
 }
 
 .header__image-coffeeshop {
-  max-width: 646px;
-  max-height: 568px;
+  position: relative;
+  top: 124px;
+  right: 5px;
 }
 
 .header__paragraph {
