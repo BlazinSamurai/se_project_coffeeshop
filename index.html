@@ -9,9 +9,7 @@
       content="Sprint 2 Stage 1 landing page for Tripleten's 'Coffeshop'."
     />
     <meta name="keywords" content="Project 2, Landing Page, Coffeshop" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
-    <link rel="stylesheet" href="styles/styles.css" />
     <link rel="favicon" href="favicon.ico" />
     <!-- Inter Regular 400 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -118,11 +116,11 @@
       <main class="content">
         <section class="recipes">
           <a id="recipes_anchor"></a>
-          <h2 class="recipes__title">Recipes</h2>
-          <h2 class="recipes__subtitle">
+          <div class="recipes__title">Recipes</div>
+          <div class="recipes__subtitle">
             Check out some recipes we've collected for your home-brewing
             convenience:
-          </h2>
+          </div>
 
           <div class="recipes__videos">
             <div class="recipes__iframe-video">
@@ -141,10 +139,11 @@
                 allowfullscreen
               ></iframe>
             </div>
-
             <div class="recipes__video-caption">
-              <p>Aeropress recipe ~5 min</p>
-              <p>French press recipe ~15 min</p>
+              <p>Aeropress recipe</p>
+              <p>~5 min</p>
+              <p>French press recipe</p>
+              <p>~15 min</p>
             </div>
           </div>
         </section>
@@ -209,15 +208,143 @@
         </section>
 
         <section class="menu">
-          <!--<a id="menu_anchor"></a>-->
+          <a id="menu_anchor"></a>
+          <h2 class="menu__title">Menu</h2>
+          <h3 class="menu__subtitle">
+            We brew coffee from locally roasted, Fairtrade certified beans and
+            use biodegradable cups. All teas from our collection are $2/cup.
+          </h3>
+          <div class="menu__cards">
+            <div class="cards">
+              <div class="card__title">Filter</div>
+              <ul class="card__list-item">
+                <li class="card__list-divider card__list-divider_top_item">
+                  Regular (12 oz)
+                  ___________________________________________________ $1
+                </li>
+                <li class="card__list-divider">
+                  Large (16 oz)
+                  __________________________________________________ $1.25
+                </li>
+                <li class="card__list-divider">
+                  XL (20 oz)
+                  ______________________________________________________ $1.5
+                </li>
+                <li class="card__list-divider">
+                  Party-size (24 oz, decaf)
+                  _______________________________________ $1.75
+                </li>
+                <li class="card__list-divider">
+                  Iced Coffee (16 oz)
+                  _____________________________________________ $1.25
+                </li>
+              </ul>
+            </div>
+            <div class="cards">
+              <div class="card__title">Espresso</div>
+              <ul class="card__list-item">
+                <li class="card__list-divider card__list-divider_top_item">
+                  Macchiato
+                  ______________________________________________________ $2.25
+                </li>
+                <li class="card__list-divider">
+                  Cortado
+                  _________________________________________________________ $2.5
+                </li>
+                <li class="card__list-divider">
+                  Mocha
+                  __________________________________________________________ $3
+                </li>
+                <li class="card__list-divider">
+                  Sunrise in the Bay Area(decaf)
+                  __________________________________ $10
+                </li>
+              </ul>
+            </div>
+            <div class="cards">
+              <div class="card__title">Baked Goods</div>
+              <ul class="card__list-item">
+                <li class="card__list-divider card__list-divider_top_item">
+                  Almond Croissant
+                  _________________________________________________ $2
+                </li>
+                <li class="card__list-divider">
+                  Banana Bread
+                  __________________________________________________ $1.75
+                </li>
+                <li class="card__list-divider">
+                  Key Lime Pie
+                  ______________________________________________________ $3
+                </li>
+                <li class="card__list-divider">
+                  Blue Velvet Cake
+                  _______________________________________________ $3.75
+                </li>
+                <li class="card__list-divider">
+                  Web Cookie
+                  _______________________________________________________ $2
+                </li>
+                <li class="card__list-divider">
+                  Fresh Bug'uette
+                  ________________________________________________ $0.25
+                </li>
+              </ul>
+            </div>
+          </div>
         </section>
 
         <section class="about">
-          <!--<a id="contacts_anchor"></a>-->
+          <a id="contacts_anchor"></a>
+          <h2 class="about__title">About the coffee shop</h2>
+          <div class="about__content">
+            <p class="about__paragraph">
+              Our coffee shop os located in the Triple Peaks Library. It
+              features 6 tables and free WiFi.
+            </p>
+            <p class="about__paragraph">
+              Our main mission is keeping guests cozy and energized.
+            </p>
+            <p class="about__paragraph">
+              Besides that, we try to reduce our environmental impact-so we dont
+              sell single-use cups. But you can buy one of our reusable cups!
+            </p>
+          </div>
+          <div class="about__circle"></div>
+          <div class="about__circle about__circle_animation_blurred"></div>
         </section>
       </main>
 
-      <footer class="footer"></footer>
+      <footer class="footer">
+        <div class="footer__content">
+          <img
+            src="./images/logo_coffeeshop_light.svg"
+            alt="Triple Espresso"
+            class="footer__logo"
+          />
+          <div class="footer__social-heading">
+            Social media
+            <div class="footer__list">
+              <div class="footer__list-item footer__list-item_facebook-padding">
+                <img
+                  src="./images/facebook_white.svg"
+                  alt="Facebook icon"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Facebook</a>
+              </div>
+              <div class="footer__list-item">
+                <img
+                  src="./images/instagram_white.svg"
+                  alt="Facebook icon"
+                  class="footer__social-icon"
+                />
+                <a href="#" class="footer__social-link">Instagram</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="footer__copyright">© 2023 Damian Lavin</div>
+      </footer>
     </div>
   </body>
 </html>
