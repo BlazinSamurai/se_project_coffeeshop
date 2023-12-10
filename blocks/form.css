@@ -6,11 +6,6 @@
   align-items: center;
 }
 
-.reservation__form {
-  margin: 0 auto;
-  padding-bottom: 120px;
-}
-
 .form__fieldset {
   display: flex;
   flex-direction: column;

@@ -16,3 +16,8 @@
   line-height: 52px;
   margin-top: 0;
 }
+
+.reservation__form {
+  margin: 0 auto;
+  padding-bottom: 120px;
+}
