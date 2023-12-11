@@ -48,6 +48,12 @@
   row-gap: 24px;
 }
 
+.recipes__video-caption-wrapper {
+  width: 1000px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .recipes__video-caption {
   color: #ffffff;
   font-family: "Inter";
@@ -55,7 +61,14 @@
   font-weight: 500;
   font-size: 20px;
   line-height: 30px;
-  width: 1000px;
   display: flex;
   justify-content: space-between;
+}
+
+.recipes__video-caption-aeropress {
+  width: 480px;
+}
+
+.recipes__video-caption-french {
+  width: 480px;
 }

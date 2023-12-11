@@ -27,16 +27,14 @@
 
 .about__title {
   color: #ffffff;
-  position: absolute;
   z-index: 1;
   max-width: 251px;
-  margin-top: 100px;
-  margin-left: 80px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
+  margin: 100px 520px 0 80px;
 }
 
 .about__content {
@@ -48,8 +46,6 @@
 
 .about__paragraph {
   color: #ffffff;
-  position: relative;
-  z-index: 1;
   font-family: "Noto Serif";
   font-style: normal;
   font-weight: normal;
@@ -62,6 +58,7 @@
   width: 426px;
   height: 426px;
   border-radius: 50%;
+  /* Brief does allow absolute position for circle */
   position: absolute;
   z-index: 0;
   top: -152px;
