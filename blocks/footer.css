@@ -8,9 +8,6 @@
   padding: 60px 80px 0;
 }
 
-.footer__list {
-}
-
 .footer__list-item {
   display: flex;
   column-gap: 10px;

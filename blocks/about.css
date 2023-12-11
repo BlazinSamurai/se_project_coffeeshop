@@ -13,6 +13,12 @@
 
 .about {
   background-color: #0a2850;
+  /*
+   * Overflow doesn't seem to work with anything other than
+   * when position is set to relative. Ive tried flexbox and
+   * margin/padding but then I can't get rid of the excess
+   * circle content
+  */
   position: relative;
   overflow: hidden;
   display: flex;
