@@ -13,12 +13,6 @@
 
 .about {
   background-color: #0a2850;
-  /*
-   * Overflow doesn't seem to work with anything other than
-   * when position is set to relative. Ive tried flexbox and
-   * margin/padding but then I can't get rid of the excess
-   * circle content
-  */
   position: relative;
   overflow: hidden;
   display: flex;
@@ -29,7 +23,7 @@
   color: #ffffff;
   z-index: 1;
   max-width: 251px;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 44px;
@@ -38,19 +32,21 @@
 }
 
 .about__content {
-  margin-top: 119px;
-  margin-bottom: 173px;
-  margin-right: 80px;
+  margin: 119px 80px 173px 0;
   max-width: 660px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
 }
 
 .about__paragraph {
   color: #ffffff;
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin: 0;
 }
 
 .about__circle {
@@ -58,7 +54,6 @@
   width: 426px;
   height: 426px;
   border-radius: 50%;
-  /* Brief does allow absolute position for circle */
   position: absolute;
   z-index: 0;
   top: -152px;

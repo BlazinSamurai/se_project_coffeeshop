@@ -18,22 +18,21 @@
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  margin-left: 80px;
 }
 
 .header__title {
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 60px;
   line-height: 72px;
   letter-spacing: -0.6px;
   max-width: 729px;
-  margin: 183px 0 0;
+  margin: 183px 0 0 80px;
 }
 
 .header__span-accent {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: italic;
   font-weight: normal;
   font-size: 60px;
@@ -43,52 +42,34 @@
 }
 
 .header__description {
-  font-family: "Noto Serif";
+  font-family: "Noto Serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
   max-width: 683px;
-  margin-top: 28px;
+  margin: 28px 0 0 80px;
 }
 
 .header__image {
   max-width: 646px;
   max-height: 568px;
+  position: relative;
 }
 
-.header__image-coffeeshop {
-  margin: 55.5px 5px 0 0;
-}
-
-.header__paragraph {
+.header__footer {
   margin: auto 80px 40px;
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
 }
 
-.header__paragraph-hours {
-}
-
-.header__paragraph-address {
-}
-
-.header__paragraph-text {
+.header__paragraph {
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
   color: #838383;
-}
-
-.header__background {
-  max-height: 800px;
-  min-height: 720px;
-  position: relative;
-  top: -620px;
-  right: -20px;
-  transform: scale(1.2);
 }
