@@ -6,44 +6,21 @@
     <meta name="author" content="Damian Lavin" />
     <meta
       name="description"
-      content="Sprint 2 Stage 1 landing page for Tripleten's 'Coffeshop'."
+      content="Sprint 2 landing page for Tripleten's 'Coffeshop'."
     />
     <meta name="keywords" content="Project 2, Landing Page, Coffeshop" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="favicon" href="favicon.ico" />
-    <!-- Inter Regular 400 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter&family=Noto+Serif:ital@0;1&display=swap"
-    />
-    <!-- Inter Medium 500 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Noto+Serif:ital@0;1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@1&display=swap"
       rel="stylesheet"
     />
-    <!-- Inter Bold 700 -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Noto+Serif:ital@0;1&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Noto Serif Regular 400 -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif&display=swap"
-      rel="stylesheet"
-    />
-    <!-- Noto Serif Regular 400 Italic -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
     <title>Coffee Shop</title>
@@ -74,17 +51,23 @@
           </ul>
         </nav>
 
+        <!--
         <div class="header__content">
           <div class="header__text">
-            <h1 class="header__title">
-              <span class="header__span-accent">Specialty coffee </span>
-              in the Triple Peaks Library
-            </h1>
-            <p class="header__description">
-              Welcome to our study zone! We've got the coffee to energize you
-              and the cozy vibes to help you get creative.
-            </p>
+            -->
+        <div>
+          <h1 class="header__title">
+            <span class="header__span-accent">Specialty coffee </span>
+            in the Triple Peaks Library
+          </h1>
+          <p class="header__description">
+            Welcome to our study zone! We've got the coffee to energize you and
+            the cozy vibes to help you get creative.
+          </p>
+          <!--
           </div>
+          -->
+
           <img
             src="./images/inside_coffee_shop.png"
             alt="Image of Coffeeshop"
@@ -92,17 +75,18 @@
           />
         </div>
 
+        <!--
+        </div>
+        -->
         <div class="header__footer">
-          <div class="header__paragraph-hours">
+          <div>
             <p class="header__paragraph">Hours:</p>
             <p class="header__paragraph">Monday - Friday (10:00 - 19:00)</p>
             <p class="header__paragraph">Saturday - Sunday (11:00 - 18:00)</p>
           </div>
-          <div class="header__paragraph-address">
-            <p class="header__paragraph">
-              200 Success Avenue, The Town of Triple Peaks
-            </p>
-          </div>
+          <p class="header__paragraph">
+            200 Success Avenue, The Town of Triple Peaks
+          </p>
         </div>
       </header>
 
@@ -115,7 +99,7 @@
           </p>
 
           <div class="recipes__videos">
-            <div class="recipes__iframe-video">
+            <div>
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/j6VlT_jUVPc?si=6Aq0myUbrmn9J3IO"
@@ -123,6 +107,11 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
+              <p class="recipes__video-caption">
+                <span>Aeropress recipe</span> ~5 min
+              </p>
+            </div>
+            <div>
               <iframe
                 class="recipes__iframe"
                 src="https://www.youtube.com/embed/st571DYYTR8?si=I_nX5hQa4w3tp9T_"
@@ -130,18 +119,9 @@
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                 allowfullscreen
               ></iframe>
-            </div>
-            <div class="recipes__video-caption-wrapper">
-              <div
-                class="recipes__video-caption recipes__video-caption-aeropress"
-              >
-                <p>Aeropress recipe</p>
-                <p>~5 min</p>
-              </div>
-              <div class="recipes__video-caption recipes__video-caption-french">
-                <p>French press recipe</p>
-                <p>~15 min</p>
-              </div>
+              <p class="recipes__video-caption">
+                <span>French press recipe</span> ~15 min
+              </p>
             </div>
           </div>
         </section>
@@ -150,13 +130,13 @@
           <h2 class="reservation__title">Book a table</h2>
           <form class="form reservation__form">
             <fieldset class="form__fieldset">
-              <label for="name" class="form__label">Name *</label>
+              <label for="name" class="form__label"> Name *</label>
               <input
                 type="text"
                 class="form__input"
                 id="name"
                 name="name"
-                placeholder="Name Surname"
+                placeholder=" Name Surname"
                 required
               />
               <label for="guest" class="form__label">Number of Guest *</label>
@@ -165,7 +145,7 @@
                 class="form__input"
                 id="guest"
                 name="guest"
-                placeholder="1-8"
+                placeholder=" 1-8"
                 required
               />
               <label for="date" class="form__label">Date & Time *</label>
@@ -182,14 +162,14 @@
                 class="form__input"
                 id="email"
                 name="email"
-                placeholder="email@email.com"
+                placeholder=" email@email.com"
                 required
               />
             </fieldset>
             <fieldset class="form__fieldset">
               <button type="submit" class="form__button">Book a table</button>
             </fieldset>
-            <fieldset class="form__fieldset form__fieldset-checkbox">
+            <fieldset class="form__fieldset">
               <input
                 type="checkbox"
                 class="form__checkbox"
@@ -212,77 +192,66 @@
           </p>
           <div class="menu__cards">
             <div class="card">
-              <h2 class="card__title">Filter</h2>
-              <ul class="card__list-item">
-                <li class="card__list-divider card__list-divider-top-item">
-                  Regular (12 oz)
-                  ___________________________________________________ $1
+              <h3 class="card__title">Filter</h3>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Regular (12 oz) <span class="card__list-divider"></span> $1
                 </li>
-                <li class="card__list-divider">
-                  Large (16 oz)
-                  __________________________________________________ $1.25
+                <li class="card__list-item">
+                  Large (16 oz) <span class="card__list-divider"></span> $1.25
                 </li>
-                <li class="card__list-divider">
-                  XL (20 oz)
-                  ______________________________________________________ $1.5
+                <li class="card__list-item">
+                  XL (20 oz) <span class="card__list-divider"></span> $1.5
                 </li>
-                <li class="card__list-divider">
+                <li class="card__list-item">
                   Party-size (24 oz, decaf)
-                  _______________________________________ $1.75
+                  <span class="card__list-divider"></span> $1.75
                 </li>
-                <li class="card__list-divider">
+                <li class="card__list-item">
                   Iced Coffee (16 oz)
-                  _____________________________________________ $1.25
+                  <span class="card__list-divider"></span> $1.25
                 </li>
               </ul>
             </div>
             <div class="card">
-              <div class="card__title">Espresso</div>
-              <ul class="card__list-item">
-                <li class="card__list-divider card__list-divider-top-item">
-                  Macchiato
-                  ______________________________________________________ $2.25
+              <h3 class="card__title">Espresso</h3>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Macchiato <span class="card__list-divider"> </span> $2.25
                 </li>
-                <li class="card__list-divider">
-                  Cortado
-                  _________________________________________________________ $2.5
+                <li class="card__list-item">
+                  Cortado <span class="card__list-divider"></span> $2.5
                 </li>
-                <li class="card__list-divider">
-                  Mocha
-                  __________________________________________________________ $3
+                <li class="card__list-item">
+                  Mocha <span class="card__list-divider"></span> $3
                 </li>
-                <li class="card__list-divider">
+                <li class="card__list-item">
                   Sunrise in the Bay Area(decaf)
-                  __________________________________ $10
+                  <span class="card__list-divider"></span>$10
                 </li>
               </ul>
             </div>
             <div class="card">
-              <div class="card__title">Baked Goods</div>
-              <ul class="card__list-item">
-                <li class="card__list-divider card__list-divider-top-item">
-                  Almond Croissant
-                  _________________________________________________ $2
+              <h3 class="card__title">Baked Goods</h3>
+              <ul class="card__list">
+                <li class="card__list-item">
+                  Almond Croissant <span class="card__list-divider"></span>$2
                 </li>
-                <li class="card__list-divider">
-                  Banana Bread
-                  __________________________________________________ $1.75
+                <li class="card__list-item">
+                  Banana Bread <span class="card__list-divider"></span> $1.75
                 </li>
-                <li class="card__list-divider">
-                  Key Lime Pie
-                  ______________________________________________________ $3
+                <li class="card__list-item">
+                  Key Lime Pie <span class="card__list-divider"></span> $3
                 </li>
-                <li class="card__list-divider">
+                <li class="card__list-item">
                   Blue Velvet Cake
-                  _______________________________________________ $3.75
+                  <span class="card__list-divider"></span> $3.75
                 </li>
-                <li class="card__list-divider">
-                  Web Cookie
-                  _______________________________________________________ $2
+                <li class="card__list-item">
+                  Web Cookie <span class="card__list-divider"></span> $2
                 </li>
-                <li class="card__list-divider">
-                  Fresh Bug'uette
-                  ________________________________________________ $0.25
+                <li class="card__list-item">
+                  Fresh Bug'uette <span class="card__list-divider"></span> $0.25
                 </li>
               </ul>
             </div>

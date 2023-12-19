@@ -29,6 +29,7 @@
   line-height: 30px;
   max-width: 780px;
   margin: 24px 0 0;
+  text-align: center;
 }
 
 .menu__cards {
@@ -36,5 +37,5 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 100px 100px;
+  gap: 100px;
 }

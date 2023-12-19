@@ -4,12 +4,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: 0;
 }
 
 .form__fieldset {
   display: flex;
   flex-direction: column;
   border: hidden;
+  margin: 0;
 }
 
 .form__input {
@@ -20,6 +22,7 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  box-sizing: border-box;
 }
 
 .form__button {
@@ -51,7 +54,7 @@
 }
 
 .form__label {
-  padding-bottom: 8px;
+  padding: 32px 0 8px;
   font-family: "Inter", Arial, sans-serif;
   font-style: normal;
   font-weight: 500;
