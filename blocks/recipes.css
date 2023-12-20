@@ -32,11 +32,14 @@
 }
 
 /*
- * When display is set to row.
+ * When direction is set to row.
  * display: flex;
  * justify-content: center;
  * column-gap: 40px;
  * Compared to when display is set to column.
+ * Didn't know exactly what you meant so I listed how to
+ * do both. This comment will be deleted once project is
+ * approved.
  */
 .recipes__videos {
   padding-top: 80px;

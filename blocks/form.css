@@ -12,6 +12,7 @@
   flex-direction: column;
   border: hidden;
   margin: 0;
+  padding: 0;
 }
 
 .form__input {
@@ -35,6 +36,7 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
+  margin: 32px 0 0;
 }
 
 .form__button:hover {
@@ -60,10 +62,4 @@
   font-weight: 500;
   font-size: 16px;
   line-height: 20px;
-}
-
-.form__fieldset-checkbox {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
 }
