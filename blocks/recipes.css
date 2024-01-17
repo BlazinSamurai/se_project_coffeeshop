@@ -2,9 +2,6 @@
   background-color: #0a2750;
   background-position: center;
   background-image: url(../images/background_recipes.svg);
-  height: 100vh;
-  max-height: 800px;
-  min-height: 720px;
 }
 
 .recipes__title {
@@ -31,24 +28,10 @@
   margin: 0;
 }
 
-/*
- * When direction is set to row.
- * display: flex;
- * justify-content: center;
- * column-gap: 40px;
- * Compared to when display is set to column.
- * Didn't know exactly what you meant so I listed how to
- * do both. This comment will be deleted once project is
- * approved.
- */
 .recipes__videos {
-  padding-top: 80px;
-  height: 297px;
+  padding: 80px 0 215px;
   display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
-  align-content: center;
+  justify-content: center;
   column-gap: 40px;
 }
 

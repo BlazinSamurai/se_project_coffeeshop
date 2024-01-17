@@ -17,6 +17,7 @@
   overflow: hidden;
   display: flex;
   justify-content: space-between;
+  padding: 0 80px 0;
 }
 
 .about__title {
@@ -28,11 +29,11 @@
   font-weight: 500;
   font-size: 44px;
   line-height: 52px;
-  margin: 100px 520px 0 80px;
+  margin-top: 100px;
 }
 
 .about__content {
-  margin: 119px 80px 173px 0;
+  margin: 119px 0 173px;
   max-width: 660px;
   display: flex;
   flex-direction: column;

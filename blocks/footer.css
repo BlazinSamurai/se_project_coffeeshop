@@ -1,3 +1,7 @@
+a {
+  text-decoration: none;
+}
+
 .footer {
   background: linear-gradient(180deg, #0a2850 0%, #071931 100%);
 }
@@ -27,6 +31,7 @@
 .footer__list-item {
   display: flex;
   column-gap: 10px;
+  padding-bottom: 16px;
 }
 
 .footer__social-icon {
@@ -42,7 +47,6 @@
   font-size: 16px;
   line-height: 20px;
   margin: 0;
-  padding-bottom: 16px;
 }
 
 .footer__social-link:hover {
