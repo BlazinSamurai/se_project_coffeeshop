@@ -22,11 +22,11 @@
   list-style: none;
 }
 
-.links {
+.nav__link {
   text-decoration: none;
   color: #000000;
 }
 
-.links:hover {
+.nav__link:hover {
   color: #2f80ed;
 }
